@@ -41,9 +41,10 @@ nav {
 nav a {
     color: black;
     text-decoration: none;
-    font-weight: bolder;
     margin-right: 15px;
     font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 section .about {
@@ -61,8 +62,11 @@ section .about {
     background-color: rgb(255, 182, 227);
 }
 
-.extras img {
+.gelato {
     width: 40%;
+    position: absolute;
+    bottom: 5px;
+    left: 745px;
 }
 
 .social {
@@ -76,10 +80,11 @@ section .about {
     display: block;
     width: 25px;
     margin: 5px 0;
+    
 }
 
 .center {
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 .text {
@@ -87,14 +92,14 @@ section .about {
 }
 
 .text h1 {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .text p {
     margin: 20px 0;
     color: black;
     font-size: 14px;
-    font-weight: light-bold;
+    font-weight: lighter;
     max-width: 800px;
 }
 
